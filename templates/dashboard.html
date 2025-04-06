@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Surveillance Dashboard</title>
+</head>
+<body>
+    <h1>AI-Powered Surveillance</h1>
+    <form action="/start_camera" method="post">
+        <button type="submit">Start Live Camera</button>
+    </form>
+    <br>
+    <form action="/upload_video" method="post" enctype="multipart/form-data">
+        <input type="file" name="video" accept="video/*" required>
+        <button type="submit">Upload Video</button>
+    </form>
+    <br>
+    <h2>Live Stream</h2>
+    <img src="{{ url_for('video_feed') }}" width="720">
+</body>
+</html>
