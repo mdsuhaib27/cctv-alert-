@@ -9,20 +9,20 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.application import MIMEApplication
 
 # Email setup
-SENDER_EMAIL = "mohamedsuhaib044@gmail.com"
-SENDER_PASSWORD = "jjdg wtvm xkqm gzyr"
-RECEIVER_EMAIL = "mohamedsuhaib044@gmail.com"
+SENDER_EMAIL = " cvbv"
+SENDER_PASSWORD = "x x "
+RECEIVER_EMAIL = "  xx "
 
 # Telegram setup
-BOT_TOKEN = "8156751885:AAEM5eFaX8kaihRaRg_DW_YF2250jdDkq8OA"
-CHAT_ID = "5099033431"
+BOT_TOKEN = "hbjij "
+CHAT_ID = "9099 "
 
 # Delay tracker
 last_email_time = 0
 
 def play_alarm():
     try:
-        playsound("alert3.mp3")
+        playsound("alert.mp3")
         print("[ALARM] Sound played.")
     except Exception as e:
         print(f"[ERROR] Alarm sound failed: {e}")
